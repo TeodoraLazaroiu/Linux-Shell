@@ -1,6 +1,5 @@
-# Shell
+# Shell implementation in C
 
-Shell implementation in C with basic commands, pipe and logical operators
 
 ### Compilation and execution in Linux:
 ```
@@ -28,4 +27,20 @@ echo: displays a string that is passed as an argument
 quit: exits the shell
 
 -----------------------------------------------------
+```
+
+### Example of commands:
+```
+// touch fisier | makedir
+// echo sir de caractere | echo
+// echo folder | makedir
+
+// lss || ls
+// cd something || ls || history
+// cd something || ls && history
+
+// cd something && ls
+// help && ls
+// ls && lss && help
+// ls && cd something || ls
 ```
